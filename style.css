@@ -1,0 +1,71 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(images/library.webp) no-repeat center center/ cover;
+}
+
+.container {
+    width: 850px;
+    height: 650px;
+}
+
+.header {
+    font-size: 1.2rem;
+    /* border: solid 2px #fff; */
+    color: #fff;
+    /* background-color: #262626; */
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 100%;
+    height: 350px;
+    color: white;
+    /* background-color: white; */
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    display: grid;
+    grid-template-rows: 150px 40px 20px;
+    align-content: stretch;
+}
+
+.main-content .text-area {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 2rem;
+    color: cornsilk;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.main-content .button-area button {
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.main-content .button-area button:acive {
+    background-color: lightblue;
+}
